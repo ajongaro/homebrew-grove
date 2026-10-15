@@ -2,7 +2,6 @@
 class Grove < Formula
   desc "Dashboard for Claude Code sessions, in tmux"
   homepage "https://github.com/ajongaro/grove"
-  version "0.1.0"
   license "MIT"
 
   depends_on "tmux"
