@@ -11,23 +11,23 @@ class Grove < Formula
     depends_on "tmux"
 
     on_arm do
-      url "https://github.com/ajongaro/grove/releases/download/v0.1.27/grove-aarch64-apple-darwin.tar.gz"
-      sha256 "1a40502d3c9630282f639b960213e201f4dbbab38d5217f927aea5a4ef285ae4"
+      url "https://github.com/ajongaro/grove/releases/download/v0.1.28/grove-aarch64-apple-darwin.tar.gz"
+      sha256 "56d16b07dd588c9555041850b42c74c0b2e96d954f1aac0c8b1503d55eb28dca"
     end
     on_intel do
-      url "https://github.com/ajongaro/grove/releases/download/v0.1.27/grove-x86_64-apple-darwin.tar.gz"
-      sha256 "ec6c124383d94e5627aa495e7fa8639f4541950aab56ecf464c14aabfe17af11"
+      url "https://github.com/ajongaro/grove/releases/download/v0.1.28/grove-x86_64-apple-darwin.tar.gz"
+      sha256 "a66bdef7cc0be429cd0237803ab363d4e99e29fdce801e9ecd290f1e117afb83"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/ajongaro/grove/releases/download/v0.1.27/grove-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "6cb46ed9837e403dc2152274cd11abb95f024d3f204367d366f0ecfb071037a1"
+      url "https://github.com/ajongaro/grove/releases/download/v0.1.28/grove-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "0be617272e96c0cb577eb8609464fb2543d49c89e511358fe6cc75b210bb307f"
     end
     on_intel do
-      url "https://github.com/ajongaro/grove/releases/download/v0.1.27/grove-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "909ade66654e8648627042cc20671e64c1062fdc004cf78e672d9a726b4f10c5"
+      url "https://github.com/ajongaro/grove/releases/download/v0.1.28/grove-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "97776a6d167c5469623b02cd27dbb997328a0ed5444f6a00b0c451c817f712b8"
     end
   end
 
